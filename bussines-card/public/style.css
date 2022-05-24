@@ -8,14 +8,20 @@
     height: 100vh;
     background-color: #23252C;
     padding: 45px 115px;
-    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container {
+    background: #1A1B21;
   }
 
   .info-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
-    align-items: center;
+     align-items: center;
+     margin-bottom: 30px;
   }
 
   .info--img {
@@ -60,4 +66,31 @@
     gap: 8px;
     margin-top: 15px;
 }
+
+.about-container , .interests-container {
+    width: 317px;
+    padding-left: 35px;
+}
  
+.about--title , .interests--title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 5px;
+    color: #F5F5F5;
+}
+
+.about--txt , .interests--txt {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.footer-container {
+    display: flex;
+    padding: 20px 45px;
+    justify-content: space-between;
+    background: #161619;
+    margin-top: 30px;
+}
