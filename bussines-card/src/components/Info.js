@@ -7,10 +7,11 @@ export default function Info() {
             <h1 className="info--title">Beka Magnaradze</h1>
             <h4 className="info-txt">Frontend Developer</h4>
             <a className="info--subtxt">beka's.website</a>
-            <button className="info--btn">
+            <a className="info--subtxt" href="https://mail.google.com/" target="_blank"> <button className="info--btn">
                 <img src="../email-icon.png" alt=""/>
                 <span>Email</span>
             </button>
+            </a>
         </div>
     )
 }
